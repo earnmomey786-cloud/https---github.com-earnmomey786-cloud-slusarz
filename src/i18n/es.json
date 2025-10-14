@@ -44,25 +44,8 @@
   },
   "hours": {
     "title": "Nuestro Horario",
-    "days": {
-      "monday": "Lunes",
-      "tuesday": "Martes",
-      "wednesday": "Miércoles",
-      "thursday": "Jueves",
-      "friday": "Viernes",
-      "saturday": "Sábado",
-      "sunday": "Domingo"
-    },
-    "schedule": {
-      "weekdays": "24 Horas",
-      "saturday": "24 Horas",
-      "sunday": "24 Horas"
-    },
     "emergency": "Servicio de Urgencia 24/7 Disponible",
     "addressTitle": "Nuestra Dirección"
-  },
-  "gallery": {
-    "title": "Nuestros Trabajos"
   },
   "map": {
     "title": "Nuestra Área de Servicio",

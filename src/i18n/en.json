@@ -44,25 +44,8 @@
   },
   "hours": {
     "title": "Business Hours",
-    "days": {
-      "monday": "Monday",
-      "tuesday": "Tuesday",
-      "wednesday": "Wednesday",
-      "thursday": "Thursday",
-      "friday": "Friday",
-      "saturday": "Saturday",
-      "sunday": "Sunday"
-    },
-    "schedule": {
-      "weekdays": "24 Hours",
-      "saturday": "24 Hours",
-      "sunday": "24 Hours"
-    },
     "emergency": "24/7 Emergency Service Available",
     "addressTitle": "Our Location"
-  },
-  "gallery": {
-    "title": "Our Work"
   },
   "map": {
     "title": "Our Service Area",

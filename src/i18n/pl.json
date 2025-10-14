@@ -44,25 +44,8 @@
   },
   "hours": {
     "title": "Godziny Otwarcia",
-    "days": {
-      "monday": "Poniedziałek",
-      "tuesday": "Wtorek",
-      "wednesday": "Środa",
-      "thursday": "Czwartek",
-      "friday": "Piątek",
-      "saturday": "Sobota",
-      "sunday": "Niedziela"
-    },
-    "schedule": {
-      "weekdays": "24 Godziny",
-      "saturday": "24 Godziny",
-      "sunday": "24 Godziny"
-    },
     "emergency": "Pogotowie Ślusarskie Dostępne 24/7",
     "addressTitle": "Nasz Adres"
-  },
-  "gallery": {
-    "title": "Nasze Realizacje"
   },
   "map": {
     "title": "Obszar Działania",
