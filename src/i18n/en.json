@@ -11,7 +11,7 @@
     "title": "24h Locksmith in Torrevieja | Emergency Lockout Service - Locksmith Pro",
     "description": "Professional 24/7 locksmith services in Torrevieja. Emergency door opening, lock changes, and car locksmith services. Call now!",
     "ogTitle": "24h Locksmith in Torrevieja - Locksmith Pro",
-    "ogDescription": "Need a locksmith urgently in Torrevieja? We are available 24/7. Trust the professionals."
+    "ogDescription": "Need a locksmith urgently in Torrevieja? I'm available 24/7. Trust a professional."
   },
   "langSwitcher": {
     "select": "Language",
@@ -21,39 +21,55 @@
   },
   "header": {
     "nav": {
-      "features": "Why Us",
+      "features": "Why Me",
+      "testimonials": "Testimonials",
       "contact": "Contact"
     },
     "a11y": "Main navigation"
   },
   "hero": {
     "title": "Your Trusted 24 Hour Locksmith in Torrevieja",
-    "subtitle": "Fast, reliable, and professional emergency locksmith services. We handle lockouts, lock changes, and more, anytime you need.",
+    "subtitle": "Fast, reliable, and professional emergency locksmith services. I handle lockouts, lock changes, and more, anytime you need.",
     "cta": "Contact on WhatsApp"
   },
   "features": {
-    "title": "Why Choose Us?",
+    "title": "Why Choose Me?",
     "list": [
-      "24/7 Emergency Service: We're always available, day or night.",
-      "Fast Response Time: We'll get to you quickly in Torrevieja.",
+      "24/7 Emergency Service: I'm always available, day or night.",
+      "Fast Response Time: I'll get to you quickly in Torrevieja.",
       "Experienced & Certified: Professional service you can trust.",
       "Transparent Pricing: No hidden fees, fair and affordable rates.",
-      "English-Speaking Staff: Clear communication for all our clients."
+      "English-Speaking: Clear communication for all my clients."
     ]
   },
-  "hours": {
-    "title": "Business Hours",
-    "emergency": "24/7 Emergency Service Available",
-    "addressTitle": "Our Location"
-  },
   "map": {
-    "title": "Our Service Area",
-    "description": "We provide fast locksmith services throughout Torrevieja and the surrounding areas. If you're within this zone, we can reach you quickly."
+    "title": "My Service Area",
+    "description": "I provide fast locksmith services throughout Torrevieja and the surrounding areas. If you're within this zone, I can reach you quickly."
+  },
+  "testimonials": {
+    "title": "What My Clients Say",
+    "reviews": [
+      {
+        "name": "John D.",
+        "initials": "JD",
+        "comment": "Excellent service! He arrived very quickly and opened my door in minutes without any damage. Very professional and friendly. Highly recommended."
+      },
+      {
+        "name": "Emily S.",
+        "initials": "ES",
+        "comment": "I was locked out of my car and he saved the day. The price was very fair, especially for a late-night call. Thank you so much!"
+      },
+      {
+        "name": "Michael B.",
+        "initials": "MB",
+        "comment": "He changed all the locks in my new apartment. He did a clean, fast job and gave me great advice on security. A true professional."
+      }
+    ]
   },
   "contact": {
     "title": "Get in Touch",
-    "description": "Write to us on WhatsApp or give us a call:",
-    "phone": "Call us",
+    "description": "Write to me on WhatsApp or give me a call:",
+    "phone": "Call me",
     "cta": "Open WhatsApp"
   },
   "footer": {
