@@ -13,7 +13,6 @@ export default function Header({ dictionary, lang }: { dictionary: Dictionary, l
   const navItems = [
     { href: '#features', label: dictionary.header.nav.features },
     { href: '#hours', label: dictionary.header.nav.hours },
-    { href: '#gallery', label: dictionary.header.nav.gallery },
     { href: '#contact', label: dictionary.header.nav.contact },
   ];
 
