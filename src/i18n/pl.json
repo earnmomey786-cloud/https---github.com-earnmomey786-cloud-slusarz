@@ -1,0 +1,81 @@
+
+{
+  "site": {
+    "name": "Torrevieja Ślusarz 24h",
+    "url": "https://www.twoja-domena.com",
+    "phoneE164": "+34999999999",
+    "address": "ULICA I NUMER, TORREVIEJA, ALICANTE",
+    "logo": "/images/logo.png"
+  },
+  "metadata": {
+    "title": "Ślusarz 24h Torrevieja | Pogotowie ślusarskie, zamki - Fachowiec",
+    "description": "Profesjonalne usługi ślusarskie 24/7 w Torrevieja. Awaryjne otwieranie drzwi, wymiana zamków, ślusarz samochodowy. Zadzwoń teraz!",
+    "ogTitle": "Ślusarz 24h Torrevieja - Fachowiec",
+    "ogDescription": "Potrzebujesz pilnie ślusarza w Torrevieja? Jesteśmy dostępni 24 godziny na dobę. Zaufaj profesjonalistom."
+  },
+  "langSwitcher": {
+    "select": "Język",
+    "pl": "Polski",
+    "es": "Hiszpański",
+    "en": "Angielski"
+  },
+  "header": {
+    "nav": {
+      "features": "Dlaczego my",
+      "hours": "Godziny",
+      "gallery": "Zdjęcia",
+      "contact": "Kontakt"
+    },
+    "a11y": "Nawigacja główna"
+  },
+  "hero": {
+    "title": "Twój Zaufany Ślusarz 24h w Torrevieja",
+    "subtitle": "Szybkie, niezawodne i profesjonalne pogotowie ślusarskie. Zajmujemy się awaryjnym otwieraniem, wymianą zamków i nie tylko, o każdej porze.",
+    "cta": "Skontaktuj się na WhatsApp"
+  },
+  "features": {
+    "title": "Dlaczego Warto Nas Wybrać?",
+    "list": [
+      "Pogotowie Ślusarskie 24/7: Zawsze dostępni, w dzień i w nocy.",
+      "Szybki Czas Reakcji: Dotrzemy do Ciebie błyskawicznie na terenie Torrevieja.",
+      "Doświadczenie i Certyfikaty: Profesjonalna usługa, której możesz zaufać.",
+      "Przejrzyste Ceny: Bez ukrytych opłat, uczciwe i przystępne stawki.",
+      "Obsługa po Polsku: Bezproblemowa komunikacja dla wszystkich naszych klientów."
+    ]
+  },
+  "hours": {
+    "title": "Godziny Otwarcia",
+    "days": {
+      "monday": "Poniedziałek",
+      "tuesday": "Wtorek",
+      "wednesday": "Środa",
+      "thursday": "Czwartek",
+      "friday": "Piątek",
+      "saturday": "Sobota",
+      "sunday": "Niedziela"
+    },
+    "schedule": {
+      "weekdays": "24 Godziny",
+      "saturday": "24 Godziny",
+      "sunday": "24 Godziny"
+    },
+    "emergency": "Pogotowie Ślusarskie Dostępne 24/7",
+    "addressTitle": "Nasz Adres"
+  },
+  "gallery": {
+    "title": "Nasze Realizacje"
+  },
+  "map": {
+    "title": "Obszar Działania",
+    "description": "Świadczymy szybkie usługi ślusarskie na terenie całej Torrevieja i okolic. Jeśli znajdujesz się w tej strefie, dotrzemy do Ciebie szybko."
+  },
+  "contact": {
+    "title": "Skontaktuj Się z Nami",
+    "description": "Napisz do nas na WhatsApp lub zadzwoń:",
+    "phone": "Zadzwoń",
+    "cta": "Otwórz WhatsApp"
+  },
+  "footer": {
+    "rights": "Wszelkie prawa zastrzeżone"
+  }
+}

@@ -1,3 +1,34 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "Locksmith hero image with tools on a dark background",
+      "imageUrl": "https://picsum.photos/seed/locksmith-hero/1920/1080",
+      "imageHint": "locksmith tools"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Locksmith specialist working on a door lock",
+      "imageUrl": "https://picsum.photos/seed/gallery-1/600/400",
+      "imageHint": "locksmith door"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Close-up of a modern high-security door lock",
+      "imageUrl": "https://picsum.photos/seed/gallery-2/600/400",
+      "imageHint": "door lock"
+    },
+    {
+      "id": "gallery-3",
+      "description": "A company van for the locksmith service",
+      "imageUrl": "https://picsum.photos/seed/gallery-3/600/400",
+      "imageHint": "work van"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Key cutting machine in action",
+      "imageUrl": "https://picsum.photos/seed/gallery-4/600/400",
+      "imageHint": "key cutting"
+    }
+  ]
 }

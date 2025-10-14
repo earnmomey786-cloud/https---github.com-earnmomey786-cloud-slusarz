@@ -1,0 +1,81 @@
+
+{
+  "site": {
+    "name": "Cerrajero Torrevieja 24h",
+    "url": "https://www.tu-dominio.com",
+    "phoneE164": "+34999999999",
+    "address": "CALLE Y NÚMERO, TORREVIEJA, ALICANTE",
+    "logo": "/images/logo.png"
+  },
+  "metadata": {
+    "title": "Cerrajero 24h en Torrevieja | Aperturas y Urgencias - Cerrajero Pro",
+    "description": "Servicios de cerrajería profesionales 24/7 en Torrevieja. Apertura de puertas urgente, cambio de cerraduras y cerrajería de coches. ¡Llama ahora!",
+    "ogTitle": "Cerrajero 24h en Torrevieja - Cerrajero Pro",
+    "ogDescription": "¿Necesitas un cerrajero urgente en Torrevieja? Estamos disponibles 24 horas. Confía en los profesionales."
+  },
+  "langSwitcher": {
+    "select": "Idioma",
+    "pl": "Polaco",
+    "es": "Español",
+    "en": "Inglés"
+  },
+  "header": {
+    "nav": {
+      "features": "Por qué nosotros",
+      "hours": "Horario",
+      "gallery": "Fotos",
+      "contact": "Contacto"
+    },
+    "a11y": "Navegación principal"
+  },
+  "hero": {
+    "title": "Tu Cerrajero de Confianza 24 Horas en Torrevieja",
+    "subtitle": "Servicios de cerrajería de emergencia rápidos, fiables y profesionales. Atendemos aperturas, cambios de cerradura y más, a cualquier hora.",
+    "cta": "Contactar por WhatsApp"
+  },
+  "features": {
+    "title": "¿Por Qué Elegirnos?",
+    "list": [
+      "Servicio de Urgencia 24/7: Siempre disponibles, de día o de noche.",
+      "Respuesta Rápida: Llegamos rápidamente a cualquier punto de Torrevieja.",
+      "Experiencia y Certificación: Servicio profesional en el que puedes confiar.",
+      "Precios Transparentes: Sin costes ocultos, tarifas justas y económicas.",
+      "Atención en tu Idioma: Comunicación clara para todos nuestros clientes."
+    ]
+  },
+  "hours": {
+    "title": "Nuestro Horario",
+    "days": {
+      "monday": "Lunes",
+      "tuesday": "Martes",
+      "wednesday": "Miércoles",
+      "thursday": "Jueves",
+      "friday": "Viernes",
+      "saturday": "Sábado",
+      "sunday": "Domingo"
+    },
+    "schedule": {
+      "weekdays": "24 Horas",
+      "saturday": "24 Horas",
+      "sunday": "24 Horas"
+    },
+    "emergency": "Servicio de Urgencia 24/7 Disponible",
+    "addressTitle": "Nuestra Dirección"
+  },
+  "gallery": {
+    "title": "Nuestros Trabajos"
+  },
+  "map": {
+    "title": "Nuestra Área de Servicio",
+    "description": "Ofrecemos servicios de cerrajería rápidos en toda Torrevieja y alrededores. Si estás en esta zona, podemos llegar a ti rápidamente."
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Escríbenos por WhatsApp o llámanos:",
+    "phone": "Llámanos",
+    "cta": "Abrir WhatsApp"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  }
+}
