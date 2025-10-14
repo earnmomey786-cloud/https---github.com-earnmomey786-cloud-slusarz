@@ -12,7 +12,6 @@ type Dictionary = {
 export default function Header({ dictionary, lang }: { dictionary: Dictionary, lang: Locale }) {
   const navItems = [
     { href: '#features', label: dictionary.header.nav.features },
-    { href: '#hours', label: dictionary.header.nav.hours },
     { href: '#contact', label: dictionary.header.nav.contact },
   ];
 

@@ -22,7 +22,6 @@
   "header": {
     "nav": {
       "features": "Why Us",
-      "hours": "Hours",
       "contact": "Contact"
     },
     "a11y": "Main navigation"
