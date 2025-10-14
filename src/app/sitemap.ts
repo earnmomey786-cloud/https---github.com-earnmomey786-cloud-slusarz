@@ -3,7 +3,7 @@ import { i18n } from '@/i18n-config'
  
 export default function sitemap(): MetadataRoute.Sitemap {
   // IMPORTANT: Replace with your actual domain before deploying.
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.your-domain.com';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://cerrajero24torrevieja.com';
 
   const routes = i18n.locales.map((locale) => ({
     url: `${siteUrl}/${locale}`,
