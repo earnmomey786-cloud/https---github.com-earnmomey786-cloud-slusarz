@@ -12,14 +12,15 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ lang: Locale }>;
 }): Promise<Metadata> {
-  const dictionary = await getDictionary(params.lang);
+  const { lang } = await params;
+  const dictionary = await getDictionary(lang);
   const { metadata, site } = dictionary;
   const baseUrl = site.url;
 
   const alternates: { canonical: string, languages: { [key: string]: string } } = {
-    canonical: `${baseUrl}/${params.lang}`,
+    canonical: `${baseUrl}/${lang}`,
     languages: {},
   };
 
@@ -34,7 +35,7 @@ export async function generateMetadata({
     openGraph: {
       title: metadata.ogTitle,
       description: metadata.ogDescription,
-      url: `${baseUrl}/${params.lang}`,
+      url: `${baseUrl}/${lang}`,
       siteName: site.name,
       images: [
         {
@@ -43,7 +44,7 @@ export async function generateMetadata({
           height: 630,
         },
       ],
-      locale: params.lang,
+      locale: lang,
       type: 'website',
     },
     twitter: {
@@ -60,14 +61,15 @@ export default async function LangLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: { lang: Locale };
+  params: Promise<{ lang: Locale }>;
 }) {
-  const dictionary = await getDictionary(params.lang);
+  const { lang } = await params;
+  const dictionary = await getDictionary(lang);
 
   return (
     <>
       <JsonLd dictionary={dictionary} />
-      <Header dictionary={dictionary} lang={params.lang} />
+      <Header dictionary={dictionary} lang={lang} />
       <main>{children}</main>
       <Footer dictionary={dictionary} />
     </>

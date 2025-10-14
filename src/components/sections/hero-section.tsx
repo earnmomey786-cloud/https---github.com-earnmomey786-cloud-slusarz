@@ -28,8 +28,12 @@ export function HeroSection({ dictionary }: { dictionary: Dictionary }) {
             </Button>
           </div>
         </div>
-        <div className="hidden h-full min-h-[300px] items-center justify-center md:flex">
-          {/* Your GIF can be placed here */}
+        <div className="flex h-full min-h-[300px] items-center justify-center">
+          <img
+            src="http://localhost:9002/superheroe.gif?v=1"
+            alt="Superhéroe"
+            className="max-w-full max-h-full border-4 border-blue-200 rounded-lg"
+          />
         </div>
       </div>
     </section>

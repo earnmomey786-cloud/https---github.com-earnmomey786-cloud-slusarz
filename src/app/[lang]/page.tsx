@@ -7,10 +7,11 @@ import { MapSection } from '@/components/sections/map-section';
 import { ContactSection } from '@/components/sections/contact-section';
 
 export default async function Home({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ lang: Locale }>;
 }) {
+  const { lang } = await params;
   const dictionary = await getDictionary(lang);
 
   return (
