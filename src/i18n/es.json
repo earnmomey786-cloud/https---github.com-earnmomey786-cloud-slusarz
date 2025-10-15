@@ -3,7 +3,7 @@
   "site": {
     "name": "cerrajero24torrevieja",
     "url": "https://cerrajero24torrevieja.com",
-    "phoneE164": "+34999999999",
+    "phoneE164": "+34653445018",
     "address": "CALLE Y NÚMERO, TORREVIEJA, ALICANTE",
     "logo": "/images/logo.png"
   },
@@ -21,7 +21,7 @@
   },
   "header": {
     "nav": {
-      "features": "Por qué yo",
+      "features": "Cuándo llamarme",
       "testimonials": "Opiniones",
       "contact": "Contacto"
     },
@@ -33,13 +33,15 @@
     "cta": "Contactar por WhatsApp"
   },
   "features": {
-    "title": "¿Por Qué Elegirme?",
+    "title": "¿Cuándo Llamarme?",
     "list": [
-      "Servicio de Urgencia 24/7: Siempre disponible, de día o de noche.",
-      "Respuesta Rápida: Llego rápidamente a cualquier punto de Torrevieja.",
-      "Experiencia y Certificación: Servicio profesional en el que puedes confiar.",
-      "Precios Transparentes: Sin costes ocultos, tarifas justas y económicas.",
-      "Atención en tu Idioma: Comunicación clara para todos mis clientes."
+      "Has perdido las llaves en la arena de la playa?: No tengo detector de metales… pero sí tengo las herramientas para abrir tu coche en minutos y sin daños.",
+      "¿La puerta se cerró sola y tú fuera en pijama?: No te preocupes, lo he visto todo. Llego rápido y sin juzgar tu pijama",
+      "¿No puedes abrir la puerta de tu casa porque dejaste la llave puesta por dentro?: Llámame, puedo ayudarte a entrar rápidamente.",
+      "¿Te quedaste fuera de casa y las llaves están dentro?: Llámame y abriré tu puerta sin causar daños.",
+      "¿No puedes abrir tu coche porque te dejaste las llaves dentro?: Llámame, resolveré el problema al instante.",
+      "¿Has perdido la llave de tu coche y no puedes entrar?: Llámame; recuperarás el acceso a tu vehículo en minutos.",
+      "¿Perdiste las llaves de casa y no tienes copias de repuesto?: Llámame, te abriré la puerta de forma segura."
     ]
   },
   "map": {

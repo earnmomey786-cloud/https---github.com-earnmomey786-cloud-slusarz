@@ -21,6 +21,7 @@ export function middleware(request: NextRequest) {
   if (
     [
       '/images',
+      '/superheroe.gif',
       // Your other assets folder
     ].some((p) => pathname.startsWith(p))
   ) {

@@ -3,7 +3,7 @@
   "site": {
     "name": "cerrajero24torrevieja",
     "url": "https://cerrajero24torrevieja.com",
-    "phoneE164": "+34999999999",
+    "phoneE164": "+34653445018",
     "address": "ULICA I NUMER, TORREVIEJA, ALICANTE",
     "logo": "/images/logo.png"
   },
@@ -21,7 +21,7 @@
   },
   "header": {
     "nav": {
-      "features": "Dlaczego ja",
+      "features": "Kiedy Do Mnie Zadzwonić",
       "testimonials": "Opinie",
       "contact": "Kontakt"
     },
@@ -33,13 +33,15 @@
     "cta": "Skontaktuj się na WhatsApp"
   },
   "features": {
-    "title": "Dlaczego Warto Mnie Wybrać?",
+    "title": "Kiedy Do Mnie Zadzwonić?",
     "list": [
-      "Pogotowie Ślusarskie 24/7: Zawsze dostępny, w dzień i w nocy.",
-      "Szybki Czas Reakcji: Dotrę do Ciebie błyskawicznie na terenie Torrevieja.",
-      "Doświadczenie i Certyfikaty: Profesjonalna usługa, której możesz zaufać.",
-      "Przejrzyste Ceny: Bez ukrytych opłat, uczciwe i przystępne stawki.",
-      "Obsługa po Polsku: Bezproblemowa komunikacja dla wszystkich moich klientów."
+      "Zgubiłeś klucze w piasku na plaży?: Nie mam wykrywacza metali… ale mam sprzęt, który otworzy Twój samochód w kilka minut i bez szkód.",
+      "Drzwi zatrzasnęły się, a Ty zostałeś na zewnątrz w piżamie?: Spokojnie, widziałem już wszystko. Przyjadę szybko i nie będę oceniał Twojej piżamy",
+      "Nie możesz otworzyć drzwi do domu, bo zostawiłeś klucz w zamku od wewnątrz?: Zadzwoń do mnie – pomogę Ci wejść do środka.",
+      "Zatrzasnąłeś drzwi domu, a klucze zostały w środku?: Zadzwoń, otworzę Twoje drzwi szybko i bez uszkodzeń.",
+      "Klucze zostały w samochodzie i nie możesz go otworzyć?: Zadzwoń do mnie – otworzę Twój samochód szybko i bezpiecznie.",
+      "Zgubiłeś kluczyki do samochodu i nie możesz się dostać do środka?: Zadzwoń, szybko rozwiążę Twój problem.",
+      "Zgubiłeś klucze do mieszkania i nie masz zapasowych?: Zadzwoń po pomoc – bezpiecznie i sprawnie otworzę Twoje drzwi."
     ]
   },
   "map": {

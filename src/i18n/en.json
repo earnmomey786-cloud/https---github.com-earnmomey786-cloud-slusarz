@@ -3,7 +3,7 @@
   "site": {
     "name": "cerrajero24torrevieja",
     "url": "https://cerrajero24torrevieja.com",
-    "phoneE164": "+34999999999",
+    "phoneE164": "+34653445018",
     "address": "STREET AND NUMBER, TORREVIEJA, ALICANTE",
     "logo": "/images/logo.png"
   },
@@ -21,7 +21,7 @@
   },
   "header": {
     "nav": {
-      "features": "Why Me",
+      "features": "When to Call Me",
       "testimonials": "Testimonials",
       "contact": "Contact"
     },
@@ -33,13 +33,15 @@
     "cta": "Contact on WhatsApp"
   },
   "features": {
-    "title": "Why Choose Me?",
+    "title": "When to Call Me?",
     "list": [
-      "24/7 Emergency Service: I'm always available, day or night.",
-      "Fast Response Time: I'll get to you quickly in Torrevieja.",
-      "Experienced & Certified: Professional service you can trust.",
-      "Transparent Pricing: No hidden fees, fair and affordable rates.",
-      "English-Speaking: Clear communication for all my clients."
+      "Lost your car keys in the beach sand?: I don’t have a metal detector… but I do have the tools to open your car fast and damage-free.",
+      "Did the door close behind you while you were in your pajamas?: Don’t worry, I’ve seen it all. I’ll be there fast and won’t judge your pajamas",
+      "Can't open your house door because you left the key in the lock?: Call me – I can help you get inside quickly.",
+      "Locked out of your home with the keys still inside?: Call me, and I'll get your door open without damage.",
+      "Did you lock your keys in the car and now can't open it?: Call me – I'll help you back into your car fast and safely.",
+      "Lost your car key and can't get in?: Call me for a quick solution to unlock your vehicle.",
+      "Lost your house keys and have no spare?: Call me – I'll open your door swiftly and safely."
     ]
   },
   "map": {
