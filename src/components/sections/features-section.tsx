@@ -16,15 +16,19 @@ export function FeaturesSection({ dictionary }: { dictionary: Dictionary }) {
         </div>
         <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {dictionary.features.list.map((feature, index) => (
-            <Card key={index} className="bg-card border-border/60">
-              <CardHeader className="flex flex-row items-center gap-4 pb-4">
-                <CheckCircle2 className="h-8 w-8 text-primary" />
-                <CardTitle className="text-lg font-semibold">{feature.split(':')[0]}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">{feature.split(':')[1]}</p>
-              </CardContent>
-            </Card>
+            <div key={index} className="relative">
+              <Card 
+                className={`bg-card border-border/60 ${index === 0 ? 'feature-card-glow' : ''}`}
+              >
+                <CardHeader className="flex flex-row items-center gap-4 pb-4">
+                  <CheckCircle2 className="h-8 w-8 text-primary" />
+                  <CardTitle className="text-lg font-semibold">{feature.split(':')[0]}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">{feature.split(':')[1]}</p>
+                </CardContent>
+              </Card>
+            </div>
           ))}
         </div>
       </div>

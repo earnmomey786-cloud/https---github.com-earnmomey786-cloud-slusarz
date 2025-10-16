@@ -75,12 +75,15 @@ export default async function LangLayout({
       <Header dictionary={dictionary} lang={lang} />
       <main>{children}</main>
       <Footer dictionary={dictionary} />
-      <div className="fixed bottom-4 right-4 z-50">
+      <div className="fixed bottom-4 right-4 z-50 group">
         <Button asChild className="bg-green-500 hover:bg-green-600 text-white rounded-full p-8 shadow-lg animate-pulse">
-          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="Contact via WhatsApp">
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" aria-label="Contact via WhatsApp - Al contactar aceptas nuestra Política de Privacidad" title="Al contactar por WhatsApp, aceptas nuestra Política de Privacidad">
             <Phone className="h-10 w-10" />
           </a>
         </Button>
+        <div className="absolute bottom-full right-0 mb-2 hidden group-hover:block bg-black text-white text-xs rounded py-1 px-2 whitespace-nowrap">
+          Al contactar por WhatsApp, aceptas nuestra Política de Privacidad
+        </div>
       </div>
     </>
   );

@@ -29,7 +29,8 @@
   },
   "hero": {
     "title": "Your Trusted 24 Hour Locksmith in Torrevieja",
-    "subtitle": "Fast, reliable, and professional emergency locksmith services. I handle lockouts, lock changes, and more, anytime you need.",
+    "subtitle": "DON'T WORRY, I'LL OPEN:",
+    "rotatingWords": ["YOUR CAR", "YOUR HOUSE", "YOUR SAFE"],
     "cta": "Contact on WhatsApp"
   },
   "features": {

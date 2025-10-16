@@ -29,7 +29,8 @@
   },
   "hero": {
     "title": "Twój Zaufany Ślusarz 24h w Torrevieja",
-    "subtitle": "Szybkie, niezawodne i profesjonalne pogotowie ślusarskie. Zajmuję się awaryjnym otwieraniem, wymianą zamków i nie tylko, o każdej porze.",
+    "subtitle": "SPOKOJNIE, JA OTWORZĘ:",
+    "rotatingWords": ["SAMOCHÓD", "DOM", "SEJF"],
     "cta": "Skontaktuj się na WhatsApp"
   },
   "features": {

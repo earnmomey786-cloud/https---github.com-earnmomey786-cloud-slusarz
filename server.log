@@ -1,0 +1,54 @@
+
+> nextn@0.1.0 dev
+> next dev -p 9002
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:9002
+   - Network:      http://192.168.1.142:9002
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 5s
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 567ms (174 modules)
+ ○ Compiling /[lang] ...
+ ✓ Compiled /[lang] in 7.7s (1056 modules)
+ ✓ Compiled in 1023ms (432 modules)
+Searching for place: Cerrajero24 Torrevieja
+Search response: {
+  html_attributions: [],
+  results: [
+    {
+      business_status: 'OPERATIONAL',
+      formatted_address: 'C. Santomera, 23, 03185 Torrevieja, Alicante, España',
+      geometry: [Object],
+      icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png',
+      icon_background_color: '#7B9EB0',
+      icon_mask_base_uri: 'https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet',
+      name: 'Cerrajero24 Torrevieja: apertura del coche, puerta, cajas fuertes. Awaryjne otwarcie samochodu',
+      opening_hours: [Object],
+      photos: [Array],
+      place_id: 'ChIJZaxVpTcPU4wRgFWr5bf1p4c',
+      plus_code: [Object],
+      rating: 5,
+      reference: 'ChIJZaxVpTcPU4wRgFWr5bf1p4c',
+      types: [Array],
+      user_ratings_total: 8
+    }
+  ],
+  status: 'OK'
+}
+Found place_id: ChIJZaxVpTcPU4wRgFWr5bf1p4c
+Fetching reviews for place_id: ChIJZaxVpTcPU4wRgFWr5bf1p4c
+Details response: {
+  html_attributions: [],
+  result: { reviews: [ [Object], [Object], [Object], [Object], [Object] ] },
+  status: 'OK'
+}
+Found reviews: 5
+Profile photo URL: https://lh3.googleusercontent.com/a/ACg8ocIZcrRYw_4Qln4nT_Q0xPxAx1E8wADjKChwYJCI-CZrjx939w=s128-c0x00000000-cc-rp-mo
+Profile photo URL: https://lh3.googleusercontent.com/a/ACg8ocLO3jN8ndjdpzdZstsFz-xN_h9Fp35EW8IhpehOouisNHPbEQ=s128-c0x00000000-cc-rp-mo
+Profile photo URL: https://lh3.googleusercontent.com/a/ACg8ocJmKlk56DrG6An_vsapq3s0aSW8OhfymIk0p-CWMml2Y_zGnA=s128-c0x00000000-cc-rp-mo
+Profile photo URL: https://lh3.googleusercontent.com/a/ACg8ocKjaGeYT92zA3QRHo0PExq9pXzBHHvDs7so1HftylQYVOg3aw=s128-c0x00000000-cc-rp-mo
+Profile photo URL: https://lh3.googleusercontent.com/a/ACg8ocI5KOgz2S295gn8MHeEG2IV2A-zTottmnhGgrSangYyrUo6Dw=s128-c0x00000000-cc-rp-mo-ba2
+ GET /es?id=301ae0e2-d8e8-4dcf-abce-7e2d872408be&vscodeBrowserReqId=1760553912210 200 in 11364ms
