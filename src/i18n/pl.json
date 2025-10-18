@@ -1,4 +1,3 @@
-
 {
   "site": {
     "name": "cerrajero24torrevieja",
@@ -8,10 +7,10 @@
     "logo": "/images/logo.png"
   },
   "metadata": {
-    "title": "Ślusarz 24h Torrevieja | Pogotowie ślusarskie, zamki - Fachowiec",
-    "description": "Profesjonalne usługi ślusarskie 24/7 w Torrevieja. Awaryjne otwieranie drzwi, wymiana zamków, ślusarz samochodowy. Zadzwoń teraz!",
-    "ogTitle": "Ślusarz 24h Torrevieja - Fachowiec",
-    "ogDescription": "Potrzebujesz pilnie ślusarza w Torrevieja? Jestem dostępny 24 godziny na dobę. Zaufaj profesjonaliście."
+    "title": "Ślusarz 24h w Torrevieja | Awaryjne Otwieranie - Ślusarz Pro",
+    "description": "Profesjonalne usługi ślusarskie 24/7 w Torrevieja. Awaryjne otwieranie drzwi, wymiana zamków i ślusarstwo samochodowe. Zadzwoń teraz!",
+    "ogTitle": "Ślusarz 24h w Torrevieja - Ślusarz Pro",
+    "ogDescription": "Potrzebujesz ślusarza pilnie w Torrevieja? Jestem dostępny 24 godziny na dobę. Zaufaj profesjonaliście."
   },
   "langSwitcher": {
     "select": "Język",
@@ -21,58 +20,58 @@
   },
   "header": {
     "nav": {
-      "features": "Kiedy Do Mnie Zadzwonić",
+      "features": "Kiedy Zadzwonić",
       "testimonials": "Opinie",
       "contact": "Kontakt"
     },
-    "a11y": "Nawigacja główna"
+    "a11y": "Główna nawigacja"
   },
   "hero": {
-    "title": "Twój Zaufany Ślusarz 24h w Torrevieja",
-    "subtitle": "SPOKOJNIE, JA OTWORZĘ:",
-    "rotatingWords": ["SAMOCHÓD", "DOM", "SEJF"],
-    "cta": "Skontaktuj się na WhatsApp"
+    "title": "Cerrajero 24H. Porque bebo mucho cafe.",
+    "subtitle": "AWARYJNE OTWIERANIE:",
+    "rotatingWords": ["DRZWI SAMOCHODU", "DOM", "LOKAL", "SEJF"],
+    "cta": "Skontaktuj się przez WhatsApp"
   },
   "features": {
-    "title": "Kiedy Do Mnie Zadzwonić?",
+    "title": "Kiedy Zadzwonić?",
     "list": [
-      "Zgubiłeś klucze w piasku na plaży?: Nie mam wykrywacza metali… ale mam sprzęt, który otworzy Twój samochód w kilka minut i bez szkód.",
-      "Drzwi zatrzasnęły się, a Ty zostałeś na zewnątrz w piżamie?: Spokojnie, widziałem już wszystko. Przyjadę szybko i nie będę oceniał Twojej piżamy",
-      "Nie możesz otworzyć drzwi do domu, bo zostawiłeś klucz w zamku od wewnątrz?: Zadzwoń do mnie – pomogę Ci wejść do środka.",
-      "Zatrzasnąłeś drzwi domu, a klucze zostały w środku?: Zadzwoń, otworzę Twoje drzwi szybko i bez uszkodzeń.",
-      "Klucze zostały w samochodzie i nie możesz go otworzyć?: Zadzwoń do mnie – otworzę Twój samochód szybko i bezpiecznie.",
-      "Zgubiłeś kluczyki do samochodu i nie możesz się dostać do środka?: Zadzwoń, szybko rozwiążę Twój problem.",
-      "Zgubiłeś klucze do mieszkania i nie masz zapasowych?: Zadzwoń po pomoc – bezpiecznie i sprawnie otworzę Twoje drzwi."
+      "Zgubiłeś klucze w piasku na plaży?: Nie mam detektora metali… ale mam narzędzia do otwarcia samochodu w minuty i bez uszkodzeń.",
+      "Drzwi zamknęły się za tobą, a ty jesteś w piżamie?: Nie martw się, widziałem wszystko. Przyjadę szybko i nie będę oceniał twojej piżamy",
+      "Nie możesz otworzyć drzwi domu, bo zostawiłeś klucz w zamku?: Zadzwoń do mnie – mogę pomóc ci szybko wejść.",
+      "Zamknąłeś się na zewnątrz, a klucze są w środku?: Zadzwoń do mnie i otworzę twoje drzwi bez uszkodzeń.",
+      "Zamknąłeś klucze w samochodzie i nie możesz go otworzyć?: Zadzwoń do mnie – pomogę ci wrócić do samochodu szybko i bezpiecznie.",
+      "Zgubiłeś klucz do samochodu i nie możesz wejść?: Zadzwoń po szybkie rozwiązanie odblokowania pojazdu.",
+      "Zgubiłeś klucze do domu i nie masz zapasowych?: Zadzwoń do mnie – otworzę twoje drzwi szybko i bezpiecznie."
     ]
   },
   "map": {
-    "title": "Mój Obszar Działania",
-    "description": "Świadczę szybkie usługi ślusarskie na terenie całej Torrevieja i okolic. Jeśli znajdujesz się w tej strefie, dotrę do Ciebie szybko."
+    "title": "Mój Obszar Usług",
+    "description": "Oferuję szybkie usługi ślusarskie w całym Torrevieja i okolicach. Jeśli jesteś w tej strefie, mogę do ciebie szybko dotrzeć."
   },
   "testimonials": {
     "title": "Co Mówią Moi Klienci",
     "reviews": [
       {
-        "name": "Anna K.",
-        "initials": "AK",
-        "comment": "Doskonała obsługa! Przyjechał bardzo szybko i otworzył drzwi w kilka minut bez żadnych uszkodzeń. Bardzo profesjonalony i miły. Gorąco polecam."
+        "name": "Jan K.",
+        "initials": "JK",
+        "comment": "Doskonała usługa! Przyjechał bardzo szybko i otworzył moje drzwi w kilka minut bez żadnych uszkodzeń. Bardzo profesjonalny i przyjazny. Gorąco polecam."
       },
       {
-        "name": "Piotr N.",
-        "initials": "PN",
-        "comment": "Zatrzasnąłem kluczyki w samochodzie, a on uratował sytuację. Cena była bardzo uczciwa, zwłaszcza jak na telefon w środku nocy. Wielkie dzięki!"
+        "name": "Ewa S.",
+        "initials": "ES",
+        "comment": "Zamknęłam się na zewnątrz samochodu i uratował sytuację. Cena była bardzo uczciwa, zwłaszcza za nocny przyjazd. Bardzo dziękuję!"
       },
       {
-        "name": "Ewa W.",
-        "initials": "EW",
-        "comment": "Wymienił wszystkie zamki w moim nowym mieszkaniu. Zrobił to czysto, szybko i udzielił mi świetnych rad dotyczących bezpieczeństwa. Prawdziwy fachowiec."
+        "name": "Michał B.",
+        "initials": "MB",
+        "comment": "Wymienił wszystkie zamki w moim nowym mieszkaniu. Wykonał pracę szybko i czysto oraz udzielił świetnych porad dotyczących bezpieczeństwa. Prawdziwy profesjonalista."
       }
     ]
   },
   "contact": {
-    "title": "Skontaktuj Się ze Mną",
+    "title": "Skontaktuj się",
     "description": "Napisz do mnie na WhatsApp lub zadzwoń:",
-    "phone": "Zadzwoń",
+    "phone": "Zadzwoń do mnie",
     "cta": "Otwórz WhatsApp"
   },
   "footer": {

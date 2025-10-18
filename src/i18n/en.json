@@ -1,4 +1,3 @@
-
 {
   "site": {
     "name": "cerrajero24torrevieja",
@@ -28,16 +27,16 @@
     "a11y": "Main navigation"
   },
   "hero": {
-    "title": "Your Trusted 24 Hour Locksmith in Torrevieja",
-    "subtitle": "DON'T WORRY, I'LL OPEN:",
-    "rotatingWords": ["YOUR CAR", "YOUR HOUSE", "YOUR SAFE"],
-    "cta": "Contact on WhatsApp"
+    "title": "Cerrajero 24H. Porque bebo mucho cafe.",
+    "subtitle": "EMERGENCY OPENING OF:",
+    "rotatingWords": ["CAR DOOR", "HOUSE", "BUSINESS", "SAFE"],
+    "cta": "Contact via WhatsApp"
   },
   "features": {
     "title": "When to Call Me?",
     "list": [
-      "Lost your car keys in the beach sand?: I don’t have a metal detector… but I do have the tools to open your car fast and damage-free.",
-      "Did the door close behind you while you were in your pajamas?: Don’t worry, I’ve seen it all. I’ll be there fast and won’t judge your pajamas",
+      "Lost your car keys in the beach sand?: I don't have a metal detector… but I do have the tools to open your car fast and damage-free.",
+      "Did the door close behind you while you were in your pajamas?: Don't worry, I've seen it all. I'll be there fast and won't judge your pajamas",
       "Can't open your house door because you left the key in the lock?: Call me – I can help you get inside quickly.",
       "Locked out of your home with the keys still inside?: Call me, and I'll get your door open without damage.",
       "Did you lock your keys in the car and now can't open it?: Call me – I'll help you back into your car fast and safely.",
