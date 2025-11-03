@@ -32,114 +32,36 @@ type GoogleReview = {
 };
 
 async function getGoogleReviews() {
-  const apiKey = process.env.GOOGLE_PLACES_API_KEY;
-  if (!apiKey) {
-    console.log('No API key');
-    return null;
-  }
   try {
-    // 1. Buscar el place_id
-    const searchResponse = await fetch(
-      `https://maps.googleapis.com/maps/api/place/textsearch/json?query=cerrajero24torrevieja+Torrevieja+Alicante&key=${apiKey}`
-    );
-    const searchData = await searchResponse.json();
-    if (!searchData.results || searchData.results.length === 0) {
-      return null;
-    }
-    const placeId = searchData.results[0].place_id;
-    // 2. Pedir reseñas en varios idiomas
-    // Primero, obtener las reseñas base para leer original_language y metadatos (author_name, time)
-    const detailsResponseBase = await fetch(
-      `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=reviews&key=${apiKey}`
-    );
-    const detailsDataBase = await detailsResponseBase.json();
-    if (!detailsDataBase.result?.reviews) return null;
-    const baseReviews: any[] = detailsDataBase.result.reviews;
-    // Debug: volcar estructura completa de reseñas base (sólo en server.log)
-    try {
-      console.log('Base reviews raw JSON:', JSON.stringify(baseReviews, null, 2));
-    } catch (e) {
-      console.log('Could not stringify baseReviews', e);
-    }
-    // Obtener todos los idiomas originales presentes
-    const originalLangs = Array.from(new Set(baseReviews.map((r: any) => r.original_language).filter(Boolean)));
-
-    // Para cada idioma original, pedir la versión en ese idioma y mapear por author_name+time
-    const langResponses: Record<string, any[]> = {};
-    for (const lang of originalLangs) {
-      try {
-        const resp = await fetch(
-          `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=reviews&key=${apiKey}&language=${lang}`
-        );
-        const data = await resp.json();
-        if (data.result?.reviews) {
-          langResponses[lang] = data.result.reviews;
-        } else {
-          langResponses[lang] = [];
-        }
-      } catch (e) {
-        console.error('Error fetching reviews for lang', lang, e);
-        langResponses[lang] = [];
-      }
-    }
-
-    // Debug: log summary of per-language responses so we can inspect if Google returned original texts
-    try {
-      console.log('Lang responses keys:', Object.keys(langResponses));
-      for (const l of Object.keys(langResponses)) {
-        const summary = (langResponses[l] || []).map((rv: any) => ({
-          author_name: rv.author_name,
-          time: rv.time,
-          language: rv.language,
-          original_language: rv.original_language,
-          translated: rv.translated,
-          text_preview: typeof rv.text === 'string' ? rv.text.slice(0, 120) : undefined,
-        }));
-        console.log(`langResponses[${l}] summary:`, JSON.stringify(summary, null, 2));
-      }
-    } catch (e) {
-      console.log('Could not stringify langResponses', e);
-    }
-
-    // Ahora, por cada review base, intentar encontrar su texto original en la respuesta del idioma original
-    const originals = baseReviews.map((r: any) => {
-      const origLang = r.original_language || r.language || null;
-      let originalText = r.text;
-      let fetchedLanguage: string | undefined = undefined;
-      if (origLang && langResponses[origLang]) {
-        const candidates = langResponses[origLang].filter((lr: any) => lr.author_name === r.author_name && lr.time === r.time);
-        if (candidates.length > 0) {
-          // Prefer a candidate that is not marked as translated or explicitly matches the original_language
-          let preferred = candidates.find((c: any) => c.translated === false || c.language === c.original_language) || candidates[0];
-          if (preferred && preferred.text) {
-            originalText = preferred.text;
-            fetchedLanguage = origLang;
-            // Log when we replaced the base text with a per-language fetch result
-            console.log(`Replaced text for ${r.author_name} (time=${r.time}) with text from lang ${origLang}; translated=${preferred.translated}`);
-          }
-        }
-      }
-      return {
-        ...r,
-        text: originalText,
-        language: origLang || r.language,
-        _fetched_language: fetchedLanguage,
-      };
+    // Usar la API route para obtener las reseñas
+    // En Server Components de Next.js, podemos hacer fetch a rutas relativas o absolutas
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:9002';
+    
+    // Construir URL de la API
+    const apiUrl = baseUrl.startsWith('http') 
+      ? `${baseUrl}/api/reviews`
+      : `http://localhost:9002/api/reviews`;
+    
+    const response = await fetch(apiUrl, {
+      next: { revalidate: 3600 }, // Cache por 1 hora en el servidor
+      cache: 'default',
     });
 
-    // Unificar por author_name + time (para evitar duplicados)
-    const uniqueOriginals = Object.values(
-      originals.reduce((acc, r) => {
-        const key = r.author_name + '_' + r.time;
-        if (!acc[key]) acc[key] = r;
-        return acc;
-      }, {} as Record<string, any>)
-    );
-    return uniqueOriginals;
+    if (!response.ok) {
+      if (process.env.NODE_ENV === 'development') {
+        console.error('Error fetching reviews from API:', response.status, response.statusText);
+      }
+      return null;
+    }
+
+    const data = await response.json();
+    return data.reviews || null;
   } catch (error) {
-    console.error('Error fetching Google reviews:', error);
+    if (process.env.NODE_ENV === 'development') {
+      console.error('Error fetching reviews from API:', error);
+    }
+    return null;
   }
-  return null;
 }
 
 export async function TestimonialsSection({ dictionary }: { dictionary: Dictionary }) {
