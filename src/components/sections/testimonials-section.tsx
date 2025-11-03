@@ -177,7 +177,8 @@ export async function TestimonialsSection({ dictionary }: { dictionary: Dictiona
     }
   }
 
-  const reviews: Review[] = allReviews;
+  // GARANTIZAR que siempre haya reseñas (si todo falla, mostrar al menos las estáticas)
+  const reviews: Review[] = allReviews.length > 0 ? allReviews : staticReviews;
 
   return (
     <section id="testimonials" className="py-16 md:py-24 bg-card">
