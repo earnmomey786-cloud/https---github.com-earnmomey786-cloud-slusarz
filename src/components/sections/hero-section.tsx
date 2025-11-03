@@ -20,8 +20,11 @@ export function HeroSection({ dictionary }: { dictionary: Dictionary }) {
         <div className="flex h-full min-h-[300px] items-center justify-center">
           <img
             src="/superheroe.gif"
-            alt="Superhéroe"
+            alt="Cerrajero 24h Torrevieja - Servicio de apertura de puertas urgente"
             className="max-w-full max-h-full border-4 border-blue-200 rounded-lg"
+            loading="eager"
+            width="400"
+            height="400"
           />
         </div>
         <div className="flex flex-col items-start text-left">

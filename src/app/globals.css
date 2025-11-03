@@ -109,7 +109,7 @@
     font-size: 1.3em;
     letter-spacing: 0.02em;
     text-shadow: 0 0 30px hsla(var(--primary) / 0.4);
-    animation: spin_4991 12s infinite;
+    animation: spin_4991 6s infinite;
   }
 
   @keyframes spin_4991 {

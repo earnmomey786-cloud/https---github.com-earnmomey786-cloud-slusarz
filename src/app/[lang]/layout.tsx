@@ -31,8 +31,10 @@ export async function generateMetadata({
   }
   
   return {
+    metadataBase: new URL(baseUrl),
     title: metadata.title,
     description: metadata.description,
+    keywords: ['cerrajero', 'cerrajero 24h', 'Torrevieja', 'apertura de puertas', 'cerrajería urgente', 'cerrajero coche'],
     alternates,
     icons: {
       icon: [

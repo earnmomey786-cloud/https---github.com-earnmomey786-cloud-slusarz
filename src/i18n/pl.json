@@ -27,7 +27,7 @@
     "a11y": "Główna nawigacja"
   },
   "hero": {
-  "title": "Ślusarz 24H. Bo piję dużo kawy.",
+    "title": "Ślusarz 24H. Bo piję dużo kawy.",
     "subtitle": "AWARYJNE OTWIERANIE:",
     "rotatingWords": ["DRZWI SAMOCHODU", "DOM", "LOKAL", "SEJF"],
     "cta": "Skontaktuj się przez WhatsApp"

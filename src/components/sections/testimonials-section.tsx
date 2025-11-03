@@ -40,7 +40,7 @@ async function getGoogleReviews() {
   try {
     // 1. Buscar el place_id
     const searchResponse = await fetch(
-      `https://maps.googleapis.com/maps/api/place/textsearch/json?query=Cerrajero24%20Torrevieja&key=${apiKey}`
+      `https://maps.googleapis.com/maps/api/place/textsearch/json?query=cerrajero24torrevieja+Torrevieja+Alicante&key=${apiKey}`
     );
     const searchData = await searchResponse.json();
     if (!searchData.results || searchData.results.length === 0) {
@@ -145,17 +145,39 @@ async function getGoogleReviews() {
 export async function TestimonialsSection({ dictionary }: { dictionary: Dictionary }) {
   const googleReviews = await getGoogleReviews();
 
-  const reviews: Review[] = googleReviews
+  // Convertir reseñas de Google a formato Review
+  const googleReviewsFormatted: Review[] = googleReviews
     ? googleReviews.map((review: any) => {
         return {
           name: review.author_name,
           initials: review.author_name.split(' ').map((n: string) => n[0]).join('').toUpperCase(),
-          comment: `${review.text} [${review.language}]`,
-          rating: review.rating,
+          comment: review.text || '',
+          rating: review.rating || 5,
           photo: review.profile_photo_url,
         };
       })
-    : dictionary.testimonials.reviews;
+    : [];
+
+  // Convertir reseñas estáticas del diccionario a formato Review
+  const staticReviews: Review[] = dictionary.testimonials.reviews.map((review) => ({
+    ...review,
+    rating: 5,
+  }));
+
+  // Combinar ambas listas, poniendo primero las de Google y luego las estáticas
+  // Usar un Set para evitar duplicados basados en el nombre
+  const allReviews: Review[] = [...googleReviewsFormatted];
+  const existingNames = new Set(googleReviewsFormatted.map(r => r.name.toLowerCase()));
+  
+  // Agregar reseñas estáticas que no estén duplicadas
+  for (const staticReview of staticReviews) {
+    if (!existingNames.has(staticReview.name.toLowerCase())) {
+      allReviews.push(staticReview);
+      existingNames.add(staticReview.name.toLowerCase());
+    }
+  }
+
+  const reviews: Review[] = allReviews;
 
   return (
     <section id="testimonials" className="py-16 md:py-24 bg-card">
@@ -179,9 +201,12 @@ export async function TestimonialsSection({ dictionary }: { dictionary: Dictiona
                         </Avatar>
                         <div>
                           <CardTitle className="text-lg font-semibold">{review.name}</CardTitle>
-                          <div className="flex text-primary">
+                          <div className="flex text-primary gap-0.5">
                             {[...Array(5)].map((_, i) => (
-                              <Star key={i} className={`h-5 w-5 ${i < (review.rating || 5) ? 'fill-current' : ''}`} />
+                              <Star 
+                                key={i} 
+                                className={`h-4 w-4 ${i < (review.rating || 5) ? 'fill-yellow-400 text-yellow-400' : 'text-gray-300'}`} 
+                              />
                             ))}
                           </div>
                         </div>
