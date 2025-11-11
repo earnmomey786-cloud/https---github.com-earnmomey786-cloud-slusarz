@@ -30,7 +30,19 @@
     "title": "Ślusarz 24H. Bo piję dużo kawy.",
     "subtitle": "AWARYJNE OTWIERANIE:",
     "rotatingWords": ["DRZWI SAMOCHODU", "DOM", "LOKAL", "SEJF"],
-    "cta": "Skontaktuj się przez WhatsApp"
+    "cta": "Skontaktuj się przez WhatsApp",
+    "emergencyText": "Zostałeś zamknięty poza domem, biurem lub samochodem w Torrevieja lub Orihuela Costa?",
+    "urgentAssistance": "Potrzebujesz pilnej pomocy w otwarciu drzwi, wymianie zamków lub dostępie do swojego domu wakacyjnego?",
+    "callUsText": "Zadzwoń do nas, jeśli zgubiłeś klucze, zamek jest uszkodzony lub musisz otworzyć swój samochód bez powodowania szkód, niezależnie od marki i modelu.",
+    "specialistTitle": "Specjalista w:",
+    "services": {
+      "doorOpening": "Otwieranie drzwi bez łamania zamka, zarówno w mieszkaniach, jak i firmach.",
+      "carLocksmith": "Pilny ślusarz do samochodów i pojazdów wszystkich marek w Torrevieja i okolicach.",
+      "lockRepair": "Naprawa i instalacja zamków wysokiego bezpieczeństwa (Cisa, Yale, Mottura, Abloy, Tesa).",
+      "emergency24h": "Serwis awaryjny 24 godziny na dobę, w tym w niedziele i święta.",
+      "fastIntervention": "Szybka interwencja w Orihuela Costa, Guardamar, Los Montesinos, Los Balcones, La Mata, Punta Prima, Aguas Nuevas, Playa Flamenca, Los Altos i całej Costa Blanca."
+    },
+    "available24h": "Bez względu na porę czy rodzaj problemu: Jestem dostępny 24 godziny na dobę, aby pomóc w każdej sytuacji awaryjnej związanej ze ślusarstwem w Torrevieja i okolicach Costa Blanca."
   },
   "features": {
     "title": "Kiedy Zadzwonić?",

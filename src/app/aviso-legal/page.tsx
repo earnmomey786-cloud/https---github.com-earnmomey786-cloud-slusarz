@@ -9,7 +9,7 @@ export default function AvisoLegalPage() {
         <p>
           <strong>JAROSLAW BALCERAK</strong><br />
           NIE: Z2065791M<br />
-          Domicilio: Calle Santomera 23, Fase 4, Bajo 3, 03185 Torrevieja (Alicante)<br />
+          Domicilio: Calle Santomera 23, 03185 Torrevieja (Alicante)<br />
           Teléfono: 653 44 50 18<br />
           Email: j46990754@gmail.com
         </p>

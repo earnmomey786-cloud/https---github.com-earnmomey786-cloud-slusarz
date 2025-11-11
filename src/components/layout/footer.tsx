@@ -26,7 +26,7 @@ export default function Footer({ dictionary }: { dictionary: Dictionary }) {
           <div>
             <h3 className="font-semibold mb-4">Contacto</h3>
             <p className="text-sm text-muted-foreground">
-              Calle Santomera 23, Fase 4, Bajo 3<br />
+              Calle Santomera 23<br />
               03185 Torrevieja (Alicante)<br />
               Tel. <a href="tel:+34653445018" className="text-primary hover:underline">653 44 50 18</a><br />
               Email: <a href="mailto:j46990754@gmail.com" className="text-primary hover:underline">j46990754@gmail.com</a>

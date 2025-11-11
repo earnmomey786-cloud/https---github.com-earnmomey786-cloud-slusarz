@@ -30,7 +30,19 @@
     "title": "Locksmith 24H. Because I drink a lot of coffee.",
     "subtitle": "EMERGENCY OPENING OF:",
     "rotatingWords": ["CAR DOOR", "HOUSE", "BUSINESS", "SAFE"],
-    "cta": "Contact via WhatsApp"
+    "cta": "Contact via WhatsApp",
+    "emergencyText": "Locked out of your home, office or car in Torrevieja or Orihuela Costa?",
+    "urgentAssistance": "Need urgent assistance to open a door, change locks or access your holiday home?",
+    "callUsText": "Call us if you've lost your keys, the lock is damaged, or you need to open your car without causing damage, regardless of make and model.",
+    "specialistTitle": "Specialist in:",
+    "services": {
+      "doorOpening": "Opening doors without breaking the lock, for both homes and businesses.",
+      "carLocksmith": "Emergency locksmith for cars and vehicles of all brands in Torrevieja and surroundings.",
+      "lockRepair": "Repair and installation of high-security locks (Cisa, Yale, Mottura, Abloy, Tesa).",
+      "emergency24h": "24-hour emergency service, including Sundays and holidays.",
+      "fastIntervention": "Fast intervention in Orihuela Costa, Guardamar, Los Montesinos, Los Balcones, La Mata, Punta Prima, Aguas Nuevas, Playa Flamenca, Los Altos and the entire Costa Blanca."
+    },
+    "available24h": "No matter the time or the problem: I'm available 24 hours a day to help you with any locksmith emergency in Torrevieja and the Costa Blanca area."
   },
   "features": {
     "title": "When to Call Me?",

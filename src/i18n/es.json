@@ -31,7 +31,19 @@
     "title": "Cerrajero 24H. Porque bebo mucho café.",
     "subtitle": "APERTURA DE EMERGENCIA DE:",
     "rotatingWords": ["PUERTA DEL COCHE", "CASA", "LOCAL", "CAJA FUERTE"],
-    "cta": "Contactar por WhatsApp"
+    "cta": "Contactar por WhatsApp",
+    "emergencyText": "¿Te has quedado fuera de casa, oficina o coche en Torrevieja u Orihuela Costa?",
+    "urgentAssistance": "¿Necesitas asistencia urgente para abrir una puerta, cambiar cerraduras o acceder a tu vivienda vacacional?",
+    "callUsText": "Llámanos si has perdido las llaves, la cerradura está dañada, o necesitas abrir tu coche sin causar daños, sea la marca y modelo que sea.",
+    "specialistTitle": "Especialista en:",
+    "services": {
+      "doorOpening": "Apertura de puertas sin romper la cerradura, tanto de viviendas como de empresas.",
+      "carLocksmith": "Cerrajero urgente para coches y vehículos de todas las marcas en Torrevieja y alrededores.",
+      "lockRepair": "Reparación e instalación de cerraduras de alta seguridad (Cisa, Yale, Mottura, Abloy, Tesa).",
+      "emergency24h": "Servicio de urgencia las 24 horas, incluidos domingos y festivos.",
+      "fastIntervention": "Intervención rápida en Orihuela Costa, Guardamar, Los Montesinos, Los Balcones, La Mata, Punta Prima, Aguas Nuevas, Playa Flamenca, Los Altos y toda la Costa Blanca."
+    },
+    "available24h": "No importa la hora ni el tipo de problema: Estoy disponible 24 horas al día para ayudarte en cualquier emergencia de cerrajería en Torrevieja y zona Costa Blanca."
   },
   "features": {
     "title": "¿Cuándo Llamarme?",
