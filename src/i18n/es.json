@@ -57,30 +57,6 @@
       "¿Perdiste las llaves de casa y no tienes copias de repuesto?: Llámame, te abriré la puerta de forma segura."
     ]
   },
-  "map": {
-    "title": "Mi Área de Servicio",
-    "description": "Ofrezco servicios de cerrajería rápidos en toda Torrevieja y alrededores. Si estás en esta zona, puedo llegar a ti rápidamente."
-  },
-  "testimonials": {
-    "title": "Lo que dicen mis clientes",
-    "reviews": [
-      {
-        "name": "María G.",
-        "initials": "MG",
-        "comment": "¡Servicio excelente! Llegó muy rápido y abrió mi puerta en minutos sin ningún daño. Muy profesional y amable. Lo recomiendo totalmente."
-      },
-      {
-        "name": "David R.",
-        "initials": "DR",
-        "comment": "Me quedé fuera del coche y me salvó el día. El precio fue muy justo, sobre todo para ser una llamada nocturna. ¡Muchas gracias!"
-      },
-      {
-        "name": "Ana F.",
-        "initials": "AF",
-        "comment": "Cambió todas las cerraduras de mi nuevo piso. Hizo un trabajo limpio, rápido y me dio buenos consejos de seguridad. Un verdadero profesional."
-      }
-    ]
-  },
   "contact": {
     "title": "Contacto",
     "description": "Escríbeme por WhatsApp o llámame:",

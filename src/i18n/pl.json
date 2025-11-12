@@ -56,30 +56,6 @@
       "Zgubiłeś klucze do domu i nie masz zapasowych?: Zadzwoń do mnie – otworzę twoje drzwi szybko i bezpiecznie."
     ]
   },
-  "map": {
-    "title": "Mój Obszar Usług",
-    "description": "Oferuję szybkie usługi ślusarskie w całym Torrevieja i okolicach. Jeśli jesteś w tej strefie, mogę do ciebie szybko dotrzeć."
-  },
-  "testimonials": {
-    "title": "Co Mówią Moi Klienci",
-    "reviews": [
-      {
-        "name": "Jan K.",
-        "initials": "JK",
-        "comment": "Doskonała usługa! Przyjechał bardzo szybko i otworzył moje drzwi w kilka minut bez żadnych uszkodzeń. Bardzo profesjonalny i przyjazny. Gorąco polecam."
-      },
-      {
-        "name": "Ewa S.",
-        "initials": "ES",
-        "comment": "Zamknęłam się na zewnątrz samochodu i uratował sytuację. Cena była bardzo uczciwa, zwłaszcza za nocny przyjazd. Bardzo dziękuję!"
-      },
-      {
-        "name": "Michał B.",
-        "initials": "MB",
-        "comment": "Wymienił wszystkie zamki w moim nowym mieszkaniu. Wykonał pracę szybko i czysto oraz udzielił świetnych porad dotyczących bezpieczeństwa. Prawdziwy profesjonalista."
-      }
-    ]
-  },
   "contact": {
     "title": "Skontaktuj się",
     "description": "Napisz do mnie na WhatsApp lub zadzwoń:",

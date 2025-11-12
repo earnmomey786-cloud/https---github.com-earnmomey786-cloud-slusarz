@@ -56,30 +56,6 @@
       "Lost your house keys and have no spare?: Call me – I'll open your door swiftly and safely."
     ]
   },
-  "map": {
-    "title": "My Service Area",
-    "description": "I provide fast locksmith services throughout Torrevieja and the surrounding areas. If you're within this zone, I can reach you quickly."
-  },
-  "testimonials": {
-    "title": "What My Clients Say",
-    "reviews": [
-      {
-        "name": "John D.",
-        "initials": "JD",
-        "comment": "Excellent service! He arrived very quickly and opened my door in minutes without any damage. Very professional and friendly. Highly recommended."
-      },
-      {
-        "name": "Emily S.",
-        "initials": "ES",
-        "comment": "I was locked out of my car and he saved the day. The price was very fair, especially for a late-night call. Thank you so much!"
-      },
-      {
-        "name": "Michael B.",
-        "initials": "MB",
-        "comment": "He changed all the locks in my new apartment. He did a clean, fast job and gave me great advice on security. A true professional."
-      }
-    ]
-  },
   "contact": {
     "title": "Get in Touch",
     "description": "Write to me on WhatsApp or give me a call:",
