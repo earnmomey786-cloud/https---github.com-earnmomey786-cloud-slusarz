@@ -45,7 +45,7 @@ export default function PoliticaPrivacidadPage() {
           <li>Solicitar la portabilidad de datos</li>
         </ul>
         <p>
-          Para ejercer estos derechos, contacta con nosotros en: j46990754@gmail.com
+          Para ejercer estos derechos, contacta con nosotros en: u1401759081@gmail.com
         </p>
         <h2>Seguridad</h2>
         <p>
@@ -57,7 +57,7 @@ export default function PoliticaPrivacidadPage() {
         </p>
         <h2>Contacto</h2>
         <p>
-          Si tienes preguntas sobre esta política, contacta con nosotros en j46990754@gmail.com
+          Si tienes preguntas sobre esta política, contacta con nosotros en u1401759081@gmail.com
         </p>
       </div>
     </div>

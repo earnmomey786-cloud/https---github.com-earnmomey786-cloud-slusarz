@@ -29,7 +29,7 @@ export default function Footer({ dictionary }: { dictionary: Dictionary }) {
               Calle Santomera 23<br />
               03185 Torrevieja (Alicante)<br />
               Tel. <a href="tel:+34653445018" className="text-primary hover:underline">653 44 50 18</a><br />
-              Email: <a href="mailto:j46990754@gmail.com" className="text-primary hover:underline">j46990754@gmail.com</a>
+              Email: <a href="mailto:u1401759081@gmail.com" className="text-primary hover:underline">u1401759081@gmail.com</a>
             </p>
           </div>
 

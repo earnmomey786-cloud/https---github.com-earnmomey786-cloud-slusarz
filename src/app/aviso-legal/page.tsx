@@ -11,7 +11,7 @@ export default function AvisoLegalPage() {
           NIE: Z2065791M<br />
           Domicilio: Calle Santomera 23, 03185 Torrevieja (Alicante)<br />
           Teléfono: 653 44 50 18<br />
-          Email: j46990754@gmail.com
+          Email: u1401759081@gmail.com
         </p>
         <p>
           JAROSLAW BALCERAK es un autónomo dedicado a la actividad profesional de cerrajero bajo la normativa española. Esta web tiene como finalidad informar sobre los servicios ofrecidos y facilitar el contacto con los clientes.
