@@ -28,8 +28,8 @@ export default function Footer({ dictionary }: { dictionary: Dictionary }) {
             <p className="text-sm text-muted-foreground">
               Calle Santomera 23<br />
               03185 Torrevieja (Alicante)<br />
-              Tel. <a href="tel:+34653445018" className="text-primary hover:underline">653 44 50 18</a><br />
-              Email: <a href="mailto:u1401759081@gmail.com" className="text-primary hover:underline">u1401759081@gmail.com</a>
+              Tel. <a href="tel:+34657560411" className="text-primary hover:underline">657 56 04 11</a><br />
+              Email: <a href="mailto:cerrajero24247@gmail.com" className="text-primary hover:underline">cerrajero24247@gmail.com</a>
             </p>
           </div>
 
